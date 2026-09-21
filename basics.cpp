@@ -420,3 +420,20 @@ for (int i = 0; i < n; i++) {
 }
 
 cout << count;
+
+
+
+
+bool found = false;
+
+for (int i = 0; i < n; i++) {
+    if (arr[i] == target) {
+        found = true;
+        break;
+    }
+}
+
+if (found)
+    cout << "Found";
+else
+    cout << "Not Found";
