@@ -399,3 +399,13 @@ for (int i = 1; i < n; i++) {
 }
 
 cout << smallest;
+
+
+
+int sum = 0;
+
+for (int i = 0; i < n; i++) {
+    sum += arr[i];
+}
+
+cout << sum;
