@@ -16,3 +16,16 @@ int countNodes(Node* root) {
     return 1 + countNodes(root->left)
              + countNodes(root->right);
 }
+
+
+
+bool search(Node* root, int x) {
+    if (root == NULL)
+        return false;
+
+    if (root->data == x)
+        return true;
+
+    return search(root->left, x) ||
+           search(root->right, x);
+}
