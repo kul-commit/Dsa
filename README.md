@@ -4,4 +4,4 @@ array
 string
 trees
 graph
-many more commits will be from tommroe
+many more commits will be from tommrow
